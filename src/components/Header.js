@@ -4,7 +4,7 @@ export default class Header extends Component {
     let resumeData = this.props.resumeData;
     return (
       <React.Fragment>
-      
+
       <header id="home">
          <nav id="nav-wrap">
             <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
@@ -21,8 +21,8 @@ export default class Header extends Component {
 
          <div className="row banner">
             <div className="banner-text">
-               <h1 className="responsive-headline">I am {resumeData.name}.</h1>
-               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>I am a {resumeData.role}.{resumeData.roleDescription}
+               <h1 className="responsive-headline">{resumeData.greet}</h1>
+               <h3 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}
                </h3>
                <hr/>
                <ul className="social">
