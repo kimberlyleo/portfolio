@@ -1,19 +1,19 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+  /*  "imagebaseurl":"https://rbhatia46.github.io/", */
+    "greet": "HI, I'M KIMBERLY",
+    "name": "Kimberly Leonard",
+    "role": "FULL STACK WEB DEVELOPER",
+    "linkedinId":"https://www.linkedin.com/in/kimberly-leonard-70431bbb/",
+    "roleDescription": " I enjoy API development and optimizing design and function in my projects.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/kimberly-leonard-70431bbb/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"https://github.com/kimberlyleo",
           "className":"fa fa-github"
         },
         {
@@ -22,45 +22,37 @@ let resumeData = {
           "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I am a recent graduate of LEARN Academy, an intensive Full Stack bootcamp where I have worked with JS, React, and Ruby on Rails with Postgresql. I switched to coding from being a professional Brewer because I am passionate about learning new technologies and being consistently challenged. Coding gives us incredible power to share information with the world; I am currently diving deeper into D3 and React Native in order to enact change through the power of information. I believe that through hard work and teamwork, anything becomes possible.",
+    "address":"San Diego",
+    "email":"kimeleonard@gmail.com",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
+        "UniversityName":"LEARN Academy",
+        "specialization":" Full-Stack Web Development",
+        "MonthOfPassing":"Mar",
         "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
+        "Achievements":"Ground-up API development, worked in a team to develop a education-focused mobile app, developed skills using React and Ruby on Rails."
       },
       {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"University California: Davis",
+        "specialization":"Food Science & Technology",
+        "MonthOfPassing":"Jun",
+        "YearOfPassing":"2015"
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Smoke Mountain Brewery",
+        "specialization":"Head Brewer",
+        "MonthOfLeaving":"Sep",
+        "YearOfLeaving":"2019",
+        "Achievements":"Created budgets and wrote SOP's to streamline processes"
       }
     ],
-    "skillsDescription":"Your skills here",
+
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"Ruby on Rails"
       },
       {
         "skillname":"CSS"
@@ -82,7 +74,7 @@ let resumeData = {
       },
       {
         "name":"project3",
-        "description":"mobileapp",  
+        "description":"mobileapp",
         "imgurl":"images/portfolio/project2.png"
       },
       {
@@ -102,5 +94,5 @@ let resumeData = {
       }
     ]
   }
-  
+
   export default resumeData
