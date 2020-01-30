@@ -22,7 +22,7 @@
 /* a. General Styles
 /* ------------------------------------------------------------------ */
 
-body { background: #FFF; }
+body { background: ##001a66; }
 
 /* ------------------------------------------------------------------ */
 /* b. Header Styles
@@ -31,7 +31,7 @@ body { background: #FFF; }
 header {
    position: relative;
   /* height: 600px; */
-   min-height: 350px;
+   min-height: 400px;
    width: 100%;
    background: #161415 url(../images/lotus-pattern-squares.jpg) no-repeat top center;
    background-size: cover !important;
@@ -52,7 +52,7 @@ header .banner {
    vertical-align: middle;
    margin: 0 auto;
    width: 85%;
-   padding-bottom: 10px;
+   padding-bottom: 30px;s
    text-align: center;
 }
 /*banner greeting text*/
@@ -61,7 +61,7 @@ header .banner-text h1 {
    font: 80px/1.1em 'opensans-bold', sans-serif;
    color: #fff;
    letter-spacing: 3px;
-   margin: 0 auto 0px auto;
+   margin: 0 auto 18px auto;
    text-shadow: 0px 2px 3px rgba(0, 0, 0, .8);
 }
 header .banner-text h3 {
@@ -102,7 +102,7 @@ header .social li a:hover { color: #FF8C00; }
 /* scrolldown link */
 header .scrolldown a {
    position: absolute;
-   bottom: 10px;
+   bottom: 30px;
    left: 50%;
    margin-left: -29px;
    color: #fff;
@@ -182,7 +182,7 @@ ul#nav li a {
 }
 
 ul#nav li a:active { background-color: transparent !important; }
-ul#nav li.current a { color: #fff; }
+ul#nav li.current a { color: #F06000; }
 
 
 /* ------------------------------------------------------------------ */
@@ -192,22 +192,21 @@ ul#nav li.current a { color: #fff; }
 #about {
    background: #fff;
    padding-top: 96px;
-   padding-bottom: 40px;
+   padding-bottom: 66px;
    overflow: hidden;
 }
 
-#about a, #about a:visited  { color: #1A364C; }
+#about a, #about a:visited  { color: #fff; }
 #about a:hover, #about a:focus { color: #11ABB0; }
 
 #about h2 {
    font: 22px/30px 'opensans-bold', sans-serif;
-   color: #1A364C;
+   color: #000;
    margin-bottom: 12px;
 }
 #about p {
-
    line-height: 30px;
-   color: #1A364C;
+   color: #000;
 }
 #about .profile-pic {
    position: relative;
@@ -240,7 +239,7 @@ ul#nav li.current a { color: #fff; }
 
 #resume {
    background: #42D3BC;
-   padding-top: 40px;
+   padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
@@ -249,10 +248,9 @@ ul#nav li.current a { color: #fff; }
 #resume a:hover, #resume a:focus { color: #000; }
 
 #resume h1 {
-   font: 26px/32px 'opensans-bold', sans-serif;
+   font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
-
 }
 #resume h1 span {
    border-bottom: 3px solid #fff;
@@ -262,17 +260,17 @@ ul#nav li.current a { color: #fff; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#resume .header-col { padding-top: 6px; }
+#resume .header-col { padding-top: 9px; }
 #resume .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
-   /* border-bottom: 1px solid #fff; */
+   border-bottom: 1px solid #000;
 }
 #resume .info {
    font: 16px/24px 'opensans-bold', sans-serif;
-   color: #1A364C;
+   color: #000;
    margin-bottom: 18px;
    margin-top: 9px;
 }
@@ -295,7 +293,7 @@ ul#nav li.current a { color: #fff; }
 /*----------------------------------------------*/
 /*	Skill Bars; are not active
 /*----------------------------------------------*/
-/*
+
 .bars {
 	width: 95%;
 	float: left;
@@ -415,7 +413,7 @@ ul#nav li.current a { color: #fff; }
 @-webkit-keyframes jquery {
   0%   { width: 0px;  }
   100% { width: 50%;  }
-} */
+}
 
 /* ------------------------------------------------------------------ */
 /* e. Portfolio Section
@@ -432,7 +430,7 @@ ul#nav li.current a { color: #fff; }
    letter-spacing: 1px;
    text-align: center;
    margin-bottom: 48px;
-   color: #1A364C;
+   color: #95A3A3;
 }
 
 /* Portfolio Content */
@@ -945,7 +943,7 @@ footer {
 }
 
 footer a, footer a:visited { color: #525252; }
-footer a:hover, footer a:focus { color: #42D3BC; }
+footer a:hover, footer a:focus { color: #fff; }
 
 /* copyright */
 footer .copyright {
@@ -1013,4 +1011,4 @@ footer .social-links li:first-child { margin-left: 0; }
    line-height: 60px;
  	border-radius: 100%;
 }
-#go-top a:hover { background-color: #42D3BC; }
+#go-top a:hover { background-color: #0F9095; }
