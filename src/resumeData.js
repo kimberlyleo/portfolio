@@ -3,12 +3,12 @@ let resumeData = {
     "greet": "HI, I'M KIMBERLY",
     "name": "Kimberly Leonard",
     "role": "FULL STACK WEB DEVELOPER",
-    "linkedinId":"https://www.linkedin.com/in/kimberly-leonard-70431bbb/",
+    "linkedinId":"https://www.linkedin.com/in/kimberly-leo",
     "roleDescription": " I enjoy API development and optimizing design and function in my projects.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/kimberly-leonard-70431bbb/",
+          "url":"https://www.linkedin.com/in/kimberly-leo",
           "className":"fa fa-linkedin"
         },
         {
@@ -18,23 +18,23 @@ let resumeData = {
         },
         {
           "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
+          "url":"mailto:kimeleonard@gmail.com",
+          "className":"fa fa-envelope"
         }
       ],
-    "aboutme":"I am a recent graduate of LEARN Academy, an intensive Full Stack bootcamp where I have worked with JS, React, and Ruby on Rails with Postgresql. I switched to coding from being a professional Brewer because I am passionate about learning new technologies and being consistently challenged. Coding gives us incredible power to share information with the world; I am currently diving deeper into D3 and React Native in order to enact change through the power of information. I believe that through hard work and teamwork, anything becomes possible.",
+    "aboutme":"I am currently studying at LEARN Academy, an intensive Full-Stack bootcamp where I work with React.js & Ruby on Rails with Postgresql. During this time I have been learning TDD and getting addicted to the wizardry that is coding. I am switching to dev from being a professional Brewer because I am passionate about learning new technologies and being consistently challenged. Coding gives us incredible power to communicate effectively with the world! I am currently diving deeper into creating mobile apps with React Native; next up: D3 and Python. I believe that with the combination of hardwork, dynamic collaboration, and code anything becomes possible.",
     "address":"San Diego",
     "email":"kimeleonard@gmail.com",
     "education":[
       {
-        "UniversityName":"LEARN Academy",
+        "UniversityName":"LEARN ACADEMY",
         "specialization":" Full-Stack Web Development",
         "MonthOfPassing":"Mar",
         "YearOfPassing":"2020",
-        "Achievements":"Ground-up API development, worked in a team to develop a education-focused mobile app, developed skills using React and Ruby on Rails."
+        "Achievements":"Ground-up API development, worked in teams to develop an interactive full stack fermentation-focused calendar/to-do app. The app was a creative coding solution to solve the issues of organization and reproducibility when juggling many fermentation projects. Developed web dev skills using React with Ruby on Rails."
       },
       {
-        "UniversityName":"University California: Davis",
+        "UniversityName":"UC DAVIS",
         "specialization":"Food Science & Technology",
         "MonthOfPassing":"Jun",
         "YearOfPassing":"2015"
@@ -46,7 +46,7 @@ let resumeData = {
         "specialization":"Head Brewer",
         "MonthOfLeaving":"Sep",
         "YearOfLeaving":"2019",
-        "Achievements":"Created budgets and wrote SOP's to streamline processes"
+        "Achievements":"Created budgets, increased efficiency and profitability, and wrote SOP's to streamline processes"
       }
     ],
 
@@ -63,24 +63,24 @@ let resumeData = {
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"cat-tinder-frontend",
+        "description":"Full Stack Class Assignment: React portion",
+        "imgurl":"images/cat-tinder-form.png"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"cat-tinder-backend",
+        "description":"Full Stack Class Assignment: Rails portion",
+        "imgurl":"images/cat-tinder-backend.png"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project2.png"
+        "name":"madlib",
+        "description":"Madlib Game: React & CSS",
+        "imgurl":"images/madlib.png"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"ferm-cal",
+        "description":"IN PROGRESS: Full Stack; A fermentation-specific task/note app with OAuth",
+        "imgurl":"images/ferm-cal.png"
       }
     ],
     "testimonials":[
